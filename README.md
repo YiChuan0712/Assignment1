@@ -13,9 +13,12 @@ an image that is located on the web
 [a link to an external web site](https://www.baidu.com/)
 
 ```c++
-#include<studio.h>
-int main(){
-    //main code
+#include <iostream>
+
+int main()
+{
+  std::cout << "Hello World!" << std::endl;
+  return 0;
 }
 ```
 
@@ -31,7 +34,7 @@ int main(){
 3. numbered list.
 4. numbered list.
 
-| 1             | 2             | 3             | 3             |
+| 1             | 2             | 3             | 4             |
 | ------------- | ------------- | ------------- | ------------- |
 | a             | b             | c             | d             |
 | e             | f             | g             | h             |
