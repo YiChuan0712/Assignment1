@@ -1,6 +1,6 @@
 # README.md is boring, check SECONDFILE.md instead!
 
-[link between markdown pages](SECONDFILE.md)
+[link to SECONDFILE.md](SECONDFILE.md)
 
 an image that is a file in the directory
 ![img](./image.jfif)
