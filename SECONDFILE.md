@@ -1,5 +1,7 @@
 [a link between markdown pages](./README.md)
 
+Markdown is probably the most commonly-used plain text markup used online, and is easy to get started with. 
+
 An h1 header
 ============
 
