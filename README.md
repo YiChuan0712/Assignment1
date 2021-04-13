@@ -1,3 +1,5 @@
+# README.md is boring, check SECONDFILE.md instead!
+
 [link between markdown pages](SECONDFILE.md)
 
 an image that is a file in the directory
