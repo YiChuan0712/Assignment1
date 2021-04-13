@@ -1,4 +1,4 @@
-[a link between markdown pages](./README.md)
+[link to README.md](./README.md)
 # Markdown
 A markdown example shows how to write a markdown file. This document integrates core syntax and extensions (GMF).
 
