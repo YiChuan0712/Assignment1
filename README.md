@@ -1,7 +1,7 @@
 [link between markdown pages](SECONDFILE.md)
 
 an image that is a file in the directory
-![pic](./image.jpeg)
+![pic](./image.jfif)
 
 an image that is located on the web
 ![img](https://www.baidu.com/img/flexible/logo/pc/result@2.png)
