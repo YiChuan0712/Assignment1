@@ -1,10 +1,10 @@
-[click there to 21180209-U1.md](SECONDFILE.md)
+[link between markdown pages](SECONDFILE.md)
 
 an image that is a file in the directory
 ![pic](./image.jpeg)
 
 an image that is located on the web
-![img]()
+![img](https://www.baidu.com/img/flexible/logo/pc/result@2.png)
 
 ## H2 sized header
 
