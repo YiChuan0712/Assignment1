@@ -5,9 +5,9 @@ Markdown is a simple syntax that formats text as headers, lists, boldface, and s
 
 
   * [1 Paragraphs and Line Breaks](#1-paragraphs-and-line-breaks)
-  * [2 Headers](#headers)
-  * [3 Blockquotes](#blockquotes)
-  * [Lists](#lists)
+  * [2 Headers](#2-headers)
+  * [3 Blockquotes](#3-blockquotes)
+  * [4 Lists](#lists)
   * [Code Blocks](#code-blocks)
   * [Horizontal Rules](#horizontal-rules)
   * [Table](#table)
@@ -20,14 +20,17 @@ Markdown is a simple syntax that formats text as headers, lists, boldface, and s
 
 #### 1.1 Paragraphs
 
+***
 Code:
 
     This is 
-    the first paragraph.
+    the first paragraph. 
     
     This is the second paragraph.
-Preview:
+
 ***
+Preview:
+
     This is 
     the first paragraph.
     
@@ -36,12 +39,14 @@ Preview:
 
 #### 1.2 Line Breaks
 
+***
 Code:
 
     This is 
     the first paragraph.
-Preview:
 ***
+Preview:
+
     This is 
     the first paragraph.
 ***
@@ -52,20 +57,21 @@ Preview:
 ### 2 Headers
 
 #### 2.1 Setext
-
+***
 Code:
 
     This is an H1
     =============
     This is an H2
     -------------
-Preview:
 ***
-This is an H1
-=============
+Preview:
 
-This is an H2
--------------
+    This is an H1
+    =============
+
+    This is an H2
+    -------------
 ***
 
 
@@ -73,17 +79,18 @@ This is an H2
 
 #### 2.2 atx
 
-
+***
 Code:
 
     # This is an H1
     ## This is an H2
     ###### This is an H6
-Preview:
 ***
-# This is an H1
-## This is an H2
-###### This is an H6
+Preview:
+
+    # This is an H1
+    ## This is an H2
+    ###### This is an H6
 ***
 
 Optionally, you may “close” atx-style headers. The closing hashes **don’t need to match** the number of hashes used to open the header.
