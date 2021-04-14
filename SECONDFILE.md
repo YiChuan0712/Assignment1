@@ -1,26 +1,32 @@
-[link to README.md](./README.md)
-# Markdown
+[link to README.md](./README.md)# Markdown
 A markdown example shows how to write a markdown file. This document integrates core syntax and extensions (GMF).
 
-* [Block Elements](#block-elements)
-* [Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
-* [Headers](#headers)
-* [Blockquotes](#blockquotes)
-* [Lists](#lists)
-* [Code Blocks](#code-blocks)
-* [Horizontal Rules](#horizontal-rules)
-* [Table](#table)
-* [Links](#links)
-* [Images](#images)
+
+  * [Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
+  * [Headers](#headers)
+  * [Blockquotes](#blockquotes)
+  * [Lists](#lists)
+  * [Code Blocks](#code-blocks)
+  * [Horizontal Rules](#horizontal-rules)
+  * [Table](#table)
+* [Span Elements](#span-elements)
+  * [Links](#links)
+  * [Emphasis](#emphasis)
+  * [Code](#code)
+  * [Images](#images)
+  * [Strikethrough](#strikethrough)
+* [Miscellaneous](#miscellaneous)
+  * [Automatic Links](#automatic-links)
+  * [Backslash Escapes](#backslash-escapes)
+* [Inline HTML](#inline-html)
 
 
 
 
-## Block Elements
 ### Paragraphs and Line Breaks
-#### Paragraphs
-HTML Tag: `<p>`
 
+
+#### Paragraphs
 One or more blank lines. (A blank line is a line containing nothing but **spaces** or **tabs** is considered blank.)
 
 Code:
@@ -41,7 +47,6 @@ This is second paragraph.
 
 
 #### Line Breaks
-HTML Tag: `<br />`
 
 End a line with **two or more spaces**.
 
@@ -60,8 +65,9 @@ inline.
 
 ### Headers
 Markdown supports two styles of headers, Setext and atx.
+
+
 #### Setext
-HTML Tags: `<h1>`, `<h2>`
 
 “Underlined” using **equal signs (=)** as `<h1>` and **dashes (-)** as `<h2>` in any number.
 
@@ -112,6 +118,7 @@ Preview:
 ## This is an H2 ##
 ### This is an H3 ######
 ***
+
 
 
 
@@ -207,6 +214,8 @@ Preview:
 
 ### Lists
 Markdown supports ordered (numbered) and unordered (bulleted) lists.
+
+
 #### Unordered
 HTML Tag: `<ul>`
 
@@ -238,6 +247,10 @@ Code:
     -   Red
     -   Green
     -   Blue
+
+
+
+
 #### Ordered
 HTML Tag: `<ol>`
 
@@ -600,156 +613,4 @@ Preview:
 A single backtick in a code span: `` ` ``
 
 A backtick-delimited string in a code span: `` `foo` ``
-***
-### Images
-HTML Tag: `<img />`
-
-Markdown uses an image syntax that is intended to resemble the syntax for links, allowing for two styles: inline and reference.
-#### Inline
-
-Inline image syntax looks like this: `![Alt text](URL "Title")`
-
-Title is optional.
-
-Code:
-
-    ![Alt text](/path/to/img.jpg)
-
-    ![Alt text](/path/to/img.jpg "Optional title")
-Preview:
-***
-![Alt text](/path/to/img.jpg)
-
-![Alt text](/path/to/img.jpg "Optional title")
-***
-That is:
-
-* An exclamation mark: !;
-* followed by a set of square brackets, containing the alt attribute text for the image;
-* followed by a set of parentheses, containing the URL or path to the image, and an optional title attribute enclosed in double or single quotes.
-
-#### Reference
-Reference-style image syntax looks like this: `![Alt text][id]`
-
-Code:
-
-    [img id]: url/to/image  "Optional title attribute"
-    ![Alt text][img id]
-Preview:
-***
-[img id]: url/to/image  "Optional title attribute"
-![Alt text][img id]
-***
-### Strikethrough
-HTML Tag: `<del>`
-
-It's an extension.
-
-GFM adds syntax to strikethrough text.
-
-Code:
-```
-~~Mistaken text.~~
-```
-Preview:
-***
-~~Mistaken text.~~
-***
-## Miscellaneous
-### Automatic Links
-Markdown supports a shortcut style for creating “automatic” links for URLs and email addresses: simply surround the URL or email address with angle brackets. 
-
-Code:
-
-    <http://example.com/>
-    
-    <address@example.com>
-Preview:
-***
-<http://example.com/>
-
-<address@example.com>
-***
-GFM will autolink standard URLs.
-
-Code:
-```
-https://github.com/emn178/markdown
-```
-Preview:
-***
-https://github.com/emn178/markdown
-***
-
-### Backslash Escapes
-Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown’s formatting syntax.
-
-Code:
-
-    \*literal asterisks\*
-Preview:
-***
-\*literal asterisks\*
-***
-Markdown provides backslash escapes for the following characters:
-
-Code:
-
-    \   backslash
-    `   backtick
-    *   asterisk
-    _   underscore
-    {}  curly braces
-    []  square brackets
-    ()  parentheses
-    #   hash mark
-    +   plus sign
-    -   minus sign (hyphen)
-    .   dot
-    !   exclamation mark
-
-## Inline HTML
-For any markup that is not covered by Markdown’s syntax, you simply use HTML itself. There’s no need to preface it or delimit it to indicate that you’re switching from Markdown to HTML; you just use the tags.
-
-Code:
-
-    This is a regular paragraph.
-
-    <table>
-        <tr>
-            <td>Foo</td>
-        </tr>
-    </table>
-
-    This is another regular paragraph.
-Preview:
-***
-This is a regular paragraph.
-
-<table>
-    <tr>
-        <td>Foo</td>
-    </tr>
-</table>
-
-This is another regular paragraph.
-***
-Note that Markdown formatting syntax is **not processed within block-level HTML tags**. 
-
-Unlike block-level HTML tags, Markdown syntax is **processed within span-level tags**.
-
-Code:
-
-    <span>**Work**</span>
-    
-    <div>
-        **No Work**
-    </div>
-Preview:
-***
-<span>**Work**</span>
-
-<div>
-  **No Work**
-</div>
 ***
