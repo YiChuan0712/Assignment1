@@ -273,3 +273,14 @@ A |B
 --|--
 12|45
 ***
+
+### 8 Links
+
+Code:
+
+    [a link to an external web site](https://www.baidu.com/)
+Preview:
+***
+[a link to an external web site](https://www.baidu.com/)
+
+***
