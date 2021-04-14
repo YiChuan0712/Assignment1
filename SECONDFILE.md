@@ -15,12 +15,12 @@ Markdown is a simple syntax that formats text as headers, lists, boldface, and s
   * [Images](#images)
 
 
-
+***
 ### 1 Paragraphs and Line Breaks
-
+***
 #### 1.1 Paragraphs
 
-***
+
 Code:
 
     This is 
@@ -38,7 +38,7 @@ This is the second paragraph.
 
 #### 1.2 Line Breaks
 
-***
+
 Code:
 
     This is 
@@ -54,9 +54,9 @@ the first paragraph.
 
 
 ### 2 Headers
-
-#### 2.1 Setext
 ***
+#### 2.1 Setext
+
 Code:
 
     This is an H1
@@ -78,7 +78,6 @@ This is an H2
 
 #### 2.2 atx
 
-***
 Code:
 
     # This is an H1
@@ -96,7 +95,7 @@ Preview:
 
 
 
-
+***
 ### 3 Blockquotes
 
 Code:
@@ -121,10 +120,10 @@ Preview:
 
 
 
-### Lists
-
-#### Unordered
+### 4 Lists
 ***
+#### 4.1 Unordered
+
 Code:
 
     *   Yichuan
@@ -141,8 +140,8 @@ Preview:
 
 
 
-#### Ordered
-***
+#### 4.2 Ordered
+
 Code:
 
     1.  Yichuan
@@ -156,70 +155,17 @@ Preview:
 
 ***
 
-#### Indented
 
-##### Blockquote
-To put a blockquote within a list item, the blockquote’s > delimiters need to be indented:
+### 5 Code Blocks
 
 Code:
 
-    *   A list item with a blockquote:
-
-        > This is a blockquote
-        > inside a list item.
-Preview:
-***
-*   A list item with a blockquote:
-
-    > This is a blockquote
-    > inside a list item.
-
-***
-##### Code Block
-To put a code block within a list item, the code block needs to be indented twice — **8 spaces** or **two tabs**:
-
-Code:
-
-    *   A list item with a code block:
-
-            <code goes here>
-Preview:
-***
-*   A list item with a code block:
-
-        <code goes here>
-
-***
-##### Nested List
-Code:
-
-    * A
-      * A1
-      * A2
-    * B
-    * C
-Preview:
-***
-* A
-  * A1
-  * A2
-* B
-* C
-
-***
-### Code Blocks
-HTML Tag: `<pre>`
-
-Indent every line of the block by at least **4 spaces** or **1 tab**.
-
-Code:
-
-    This is a normal paragraph:
+    This is a paragraph:
 
         This is a code block.
 Preview:
 ***
-This is a normal paragraph:
+This is a paragraph:
 
     This is a code block.
 ***
