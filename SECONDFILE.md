@@ -60,17 +60,18 @@ the first paragraph.
 
 Code:
 
-    This is an H1
+    H1 Sized Header
     =============
-    This is an H2
+
+    H2 Sized Header
     -------------
 
 Preview:
 ***
-This is an H1
+H1 Sized Header
 =============
 
-This is an H2
+H2 Sized Header
 -------------
 ***
 
@@ -81,15 +82,15 @@ This is an H2
 
 Code:
 
-    # This is an H1
-    ## This is an H2
-    ###### This is an H6
+    # H1 Sized Header
+    ## H2 Sized Header
+    ###### H6 Sized Header
 
 Preview:
 ***
-# This is an H1
-## This is an H2
-###### This is an H6
+# H1 Sized Header
+## H2 Sized Header
+###### H6 Sized Header
 ***
 
 
@@ -283,4 +284,21 @@ Preview:
 ***
 [a link to an external web site](https://www.baidu.com/)
 
+***
+### 9 Images
+
+Code:
+
+    an image that is a file in the directory
+    ![img](./image.jfif)
+
+    an image that is located on the web
+    ![img](https://www.baidu.com/img/flexible/logo/pc/result@2.png)
+Preview:
+***
+an image that is a file in the directory
+![img](./image.jfif)
+
+an image that is located on the web
+![img](https://www.baidu.com/img/flexible/logo/pc/result@2.png)
 ***
