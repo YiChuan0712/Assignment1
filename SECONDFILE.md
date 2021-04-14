@@ -1,18 +1,18 @@
 [link to README.md](./README.md)
 
 # Markdown
-Markdown is a simple syntax that formats text as headers, lists, boldface, and so on.
+Markdown is a simple syntax that formats text as headers, lists, and so on.
 
 
   * [1 Paragraphs and Line Breaks](#1-paragraphs-and-line-breaks)
   * [2 Headers](#2-headers)
   * [3 Blockquotes](#3-blockquotes)
-  * [4 Lists](#lists)
-  * [Code Blocks](#code-blocks)
-  * [Horizontal Rules](#horizontal-rules)
-  * [Table](#table)
-  * [Links](#links)
-  * [Images](#images)
+  * [4 Lists](#4-lists)
+  * [5 Code Blocks](#5-code-blocks)
+  * [6 Horizontal Rules](#6-horizontal-rules)
+  * [7 Table](#7-table)
+  * [8 Links](#8-links)
+  * [9 Images](#9-images)
 
 
 ***
@@ -97,7 +97,7 @@ Preview:
 
 ***
 ### 3 Blockquotes
-
+***
 Code:
 
     > This is 
@@ -157,37 +157,8 @@ Preview:
 
 
 ### 5 Code Blocks
-
-Code:
-
-    This is a paragraph:
-
-        This is a code block.
-Preview:
 ***
-This is a paragraph:
-
-    This is a code block.
-***
-A code block continues until it reaches a line that is not indented (or the end of the article).
-
-Within a code block, ***ampersands (&)*** and angle **brackets (< and >)** are automatically converted into HTML entities.
-
-Code:
-
-        <div class="footer">
-            &copy; 2004 Foo Corporation
-        </div>
-Preview:
-***
-    <div class="footer">
-        &copy; 2004 Foo Corporation
-    </div>
-***
-Following sections Fenced Code Blocks and Syntax Highlighting are extensions, you can use the other way to write the code block.
 #### Fenced Code Blocks
-Just wrap your code in ```` ``` ```` (as shown below) and you won't need to indent it by four spaces.
-
 Code:
 
     Here's an example:
@@ -208,8 +179,6 @@ function test() {
 ```
 ***
 #### Syntax Highlighting
-In your fenced block, add an optional language identifier and we'll run it through syntax highlighting ([Support Languages](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)).
-
 Code:
 
     ```ruby
@@ -225,6 +194,7 @@ markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 ***
+
 ### Horizontal Rules
 HTML Tag: `<hr />`
 Places **three or more hyphens (-), asterisks (*), or underscores (_)** on a line by themselves. You may use spaces between the hyphens or asterisks.
