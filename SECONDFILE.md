@@ -92,19 +92,6 @@ Preview:
 ###### This is an H6
 ***
 
-Optionally, you may “close” atx-style headers. The closing hashes **don’t need to match** the number of hashes used to open the header.
-
-Code:
-
-    # This is an H1 #
-    ## This is an H2 ##
-    ### This is an H3 ######
-Preview:
-
-# This is an H1 #
-## This is an H2 ##
-### This is an H3 ######
-***
 
 
 
@@ -129,148 +116,46 @@ Preview:
 > This is the second paragraph.
 
 ***
-Markdown allows you to be lazy and only put the > before the first line of a hard-wrapped paragraph.
 
-Code:
-
-    > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-    consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-    Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-    
-    > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-    id sem consectetuer libero luctus adipiscing.
-Preview:
-***
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-id sem consectetuer libero luctus adipiscing.
-
-***
-Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by adding additional levels of >.
-
-Code:
-
-    > This is the first level of quoting.
-    >
-    > > This is nested blockquote.
-    >
-    > Back to the first level.
-Preview:
-***
-> This is the first level of quoting.
->
-> > This is nested blockquote.
->
-> Back to the first level.
-
-***
-Blockquotes can contain other Markdown elements, including headers, lists, and code blocks.
-
-Code:
-
-    > ## This is a header.
-    > 
-    > 1.   This is the first list item.
-    > 2.   This is the second list item.
-    > 
-    > Here's some example code:
-    > 
-    >     return shell_exec("echo $input | $markdown_script");
-Preview:
-***
-> ## This is a header.
-> 
-> 1.   This is the first list item.
-> 2.   This is the second list item.
-> 
-> Here's some example code:
-> 
->     return shell_exec("echo $input | $markdown_script");
-
-***
 
 
 
 
 ### Lists
-Markdown supports ordered (numbered) and unordered (bulleted) lists.
-
 
 #### Unordered
-HTML Tag: `<ul>`
-
-Unordered lists use **asterisks (*)**, **pluses (+)**, and **hyphens (-)**.
-
+***
 Code:
 
-    *   Red
-    *   Green
-    *   Blue
+    *   Yichuan
+    *   Yichuan
+    *   Yichuan
 Preview:
-***
-*   Red
-*   Green
-*   Blue
+*   Yichuan
+*   Yichuan
+*   Yichuan
 
 ***
-is equivalent to:
 
-Code:
-
-    +   Red
-    +   Green
-    +   Blue
-and:
-
-Code:
-
-    -   Red
-    -   Green
-    -   Blue
 
 
 
 
 #### Ordered
-HTML Tag: `<ol>`
-
-Ordered lists use numbers followed by periods:
-
+***
 Code:
 
-    1.  Bird
-    2.  McHale
-    3.  Parish
+    1.  Yichuan
+    2.  Yichuan
+    3.  Yichuan
 Preview:
-***
-1.  Bird
-2.  McHale
-3.  Parish
+
+1.  Yichuan
+2.  Yichuan
+3.  Yichuan
 
 ***
-It’s possible to trigger an ordered list by accident, by writing something like this:
 
-Code:
-
-    1986. What a great season.
-Preview:
-***
-1986. What a great season.
-
-***
-You can **backslash-escape (\\)** the period:
-
-Code:
-
-    1986\. What a great season.
-Preview:
-***
-1986\. What a great season.
-
-***
 #### Indented
 
 ##### Blockquote
