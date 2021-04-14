@@ -41,12 +41,12 @@ This is the second paragraph.
 
 Code:
 
-    This is 
+    This is     
     the first paragraph.
 
 Preview:
 ***
-This is 
+This is       
 the first paragraph.
 ***
 
