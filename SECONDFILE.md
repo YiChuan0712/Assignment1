@@ -10,7 +10,7 @@ Markdown is a simple syntax that formats text as headers, lists, and so on.
   * [4 Lists](#4-lists)
   * [5 Code Blocks](#5-code-blocks)
   * [6 Horizontal Rules](#6-horizontal-rules)
-  * [7 Table](#7-table)
+  * [7 Tables](#7-tables)
   * [8 Links](#8-links)
   * [9 Images](#9-images)
 
@@ -206,7 +206,7 @@ Preview:
 ---------------------------------------
 ___
 ***
-### 7 Table
+### 7 Tables
 
 Code:
 ```
