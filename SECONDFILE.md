@@ -4,9 +4,9 @@
 Markdown is a simple syntax that formats text as headers, lists, boldface, and so on.
 
 
-  * [Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
-  * [Headers](#headers)
-  * [Blockquotes](#blockquotes)
+  * [1 Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
+  * [2 Headers](#headers)
+  * [3 Blockquotes](#blockquotes)
   * [Lists](#lists)
   * [Code Blocks](#code-blocks)
   * [Horizontal Rules](#horizontal-rules)
@@ -16,9 +16,9 @@ Markdown is a simple syntax that formats text as headers, lists, boldface, and s
 
 
 
-### Paragraphs and Line Breaks
+### 1 Paragraphs and Line Breaks
 
-#### Paragraphs
+#### 1.1 Paragraphs
 
 Code:
 
@@ -34,7 +34,7 @@ Preview:
     This is the second paragraph.
 ***
 
-#### Line Breaks
+#### 1.2 Line Breaks
 
 Code:
 
@@ -49,9 +49,9 @@ Preview:
 
 
 
-### Headers
+### 2 Headers
 
-#### Setext
+#### 2.1 Setext
 
 Code:
 
@@ -71,7 +71,7 @@ This is an H2
 
 
 
-#### atx
+#### 2.2 atx
 
 
 Code:
@@ -104,7 +104,7 @@ Preview:
 
 
 
-### Blockquotes
+### 3 Blockquotes
 
 Code:
 
