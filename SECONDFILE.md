@@ -4,7 +4,7 @@
 Markdown is a simple syntax that formats text as headers, lists, boldface, and so on.
 
 
-  * [1 Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
+  * [1 Paragraphs and Line Breaks](#1-paragraphs-and-line-breaks)
   * [2 Headers](#headers)
   * [3 Blockquotes](#blockquotes)
   * [Lists](#lists)
