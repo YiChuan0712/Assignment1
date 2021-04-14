@@ -16,10 +16,10 @@ Markdown is a simple syntax that formats text as headers, lists, and so on.
 
 
 ***
-### 1 Paragraphs and Line Breaks
-***
-#### 1.1 Paragraphs
 
+### 1 Paragraphs and Line Breaks
+    
+#### 1.1 Paragraphs
 
 Code:
 
@@ -34,7 +34,7 @@ This is
 the first paragraph.
     
 This is the second paragraph.
-***
+   
 
 #### 1.2 Line Breaks
 
