@@ -13,6 +13,9 @@ A markdown example shows how to write a markdown file. This document integrates 
 * [Links](#links)
 * [Images](#images)
 
+
+
+
 ## Block Elements
 ### Paragraphs and Line Breaks
 #### Paragraphs
@@ -33,6 +36,10 @@ inline.
 
 This is second paragraph.
 ***
+
+
+
+
 #### Line Breaks
 HTML Tag: `<br />`
 
@@ -47,6 +54,9 @@ Preview:
 This will be not  
 inline.
 ***
+
+
+
 
 ### Headers
 Markdown supports two styles of headers, Setext and atx.
@@ -69,6 +79,10 @@ This is an H1
 This is an H2
 -------------
 ***
+
+
+
+
 #### atx
 HTML Tags: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`
 
@@ -98,6 +112,9 @@ Preview:
 ## This is an H2 ##
 ### This is an H3 ######
 ***
+
+
+
 
 ### Blockquotes
 HTML Tag: `<blockquote>`
@@ -184,6 +201,9 @@ Preview:
 >     return shell_exec("echo $input | $markdown_script");
 
 ***
+
+
+
 
 ### Lists
 Markdown supports ordered (numbered) and unordered (bulleted) lists.
