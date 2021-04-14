@@ -1,7 +1,7 @@
 [link to README.md](./README.md)
 
 # Markdown
-A markdown example shows how to write a markdown file. This document integrates core syntax and extensions (GMF).
+Markdown is a simple syntax that formats text as headers, lists, boldface, and so on.
 
 
   * [Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
@@ -16,43 +16,34 @@ A markdown example shows how to write a markdown file. This document integrates 
 
 
 
-
-
 ### Paragraphs and Line Breaks
-
-
 #### Paragraphs
 One or more blank lines. (A blank line is a line containing nothing but **spaces** or **tabs** is considered blank.)
-
 Code:
 
-    This will be 
-    inline.
+    This is 
+    the first paragraph.
     
-    This is second paragraph.
+    This is the second paragraph.
 Preview:
 ***
-This will be 
-inline.
-
-This is second paragraph.
+    This is 
+    the first paragraph.
+    
+    This is the second paragraph.
 ***
-
-
-
-
 #### Line Breaks
 
 End a line with **two or more spaces**.
 
 Code:
 
-    This will be not  
-    inline.
+    This is 
+    the first paragraph.
 Preview:
 ***
-This will be not  
-inline.
+    This is 
+    the first paragraph.
 ***
 
 
@@ -60,8 +51,6 @@ inline.
 
 ### Headers
 Markdown supports two styles of headers, Setext and atx.
-
-
 #### Setext
 
 “Underlined” using **equal signs (=)** as `<h1>` and **dashes (-)** as `<h2>` in any number.
@@ -85,7 +74,6 @@ This is an H2
 
 
 #### atx
-HTML Tags: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`
 
 Uses 1-6 **hash characters (#)** at the start of the line, corresponding to `<h1>` - `<h6>`.
 
