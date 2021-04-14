@@ -9,16 +9,9 @@ A markdown example shows how to write a markdown file. This document integrates 
   * [Code Blocks](#code-blocks)
   * [Horizontal Rules](#horizontal-rules)
   * [Table](#table)
-* [Span Elements](#span-elements)
   * [Links](#links)
-  * [Emphasis](#emphasis)
-  * [Code](#code)
   * [Images](#images)
-  * [Strikethrough](#strikethrough)
-* [Miscellaneous](#miscellaneous)
-  * [Automatic Links](#automatic-links)
-  * [Backslash Escapes](#backslash-escapes)
-* [Inline HTML](#inline-html)
+
 
 
 
