@@ -31,10 +31,10 @@ Code:
 ***
 Preview:
 
-    This is 
-    the first paragraph.
+This is 
+the first paragraph.
     
-    This is the second paragraph.
+This is the second paragraph.
 ***
 
 #### 1.2 Line Breaks
