@@ -17,8 +17,9 @@ Markdown is a simple syntax that formats text as headers, lists, boldface, and s
 
 
 ### Paragraphs and Line Breaks
+
 #### Paragraphs
-One or more blank lines. (A blank line is a line containing nothing but **spaces** or **tabs** is considered blank.)
+
 Code:
 
     This is 
@@ -32,9 +33,8 @@ Preview:
     
     This is the second paragraph.
 ***
-#### Line Breaks
 
-End a line with **two or more spaces**.
+#### Line Breaks
 
 Code:
 
@@ -50,10 +50,8 @@ Preview:
 
 
 ### Headers
-Markdown supports two styles of headers, Setext and atx.
-#### Setext
 
-“Underlined” using **equal signs (=)** as `<h1>` and **dashes (-)** as `<h2>` in any number.
+#### Setext
 
 Code:
 
@@ -75,7 +73,6 @@ This is an H2
 
 #### atx
 
-Uses 1-6 **hash characters (#)** at the start of the line, corresponding to `<h1>` - `<h6>`.
 
 Code:
 
@@ -88,6 +85,7 @@ Preview:
 ## This is an H2
 ###### This is an H6
 ***
+
 Optionally, you may “close” atx-style headers. The closing hashes **don’t need to match** the number of hashes used to open the header.
 
 Code:
@@ -107,9 +105,6 @@ Preview:
 
 
 ### Blockquotes
-HTML Tag: `<blockquote>`
-
-Markdown uses email-style **>** characters for blockquoting. It looks best if you hard wrap the text and put a > before every line.
 
 Code:
 
