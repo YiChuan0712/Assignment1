@@ -160,32 +160,48 @@ Preview:
 #### 5.1 Fenced Code Blocks
 Code:
     ```
-    function test() {
-      console.log("notice the blank line before this function?");
+    #include <iostream>
+    
+    int main()
+    {
+      std::cout << "Hello World!" << std::endl;
+      return 0;
     }
     ```
 Preview:
 ***
 ```
-function test() {
-  console.log("notice the blank line before this function?");
+#include <iostream>
+
+int main()
+{
+  std::cout << "Hello World!" << std::endl;
+  return 0;
 }
 ```
 ***
 #### 5.2 Syntax Highlighting
 Code:
 
-    ```ruby
-    require 'redcarpet'
-    markdown = Redcarpet.new("Hello World!")
-    puts markdown.to_html
+    ```c++
+    #include <iostream>
+    
+    int main()
+    {
+      std::cout << "Hello World!" << std::endl;
+      return 0;
+    }
     ```
 Preview:
 ***
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+```c++
+#include <iostream>
+
+int main()
+{
+  std::cout << "Hello World!" << std::endl;
+  return 0;
+}
 ```
 ***
 
