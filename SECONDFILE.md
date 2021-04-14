@@ -1,8 +1,7 @@
 [link to README.md](./README.md)
 
-# Markdown
+# a Simple Markdown Guideline
 Markdown is a simple syntax that formats text as headers, lists, and so on.
-
 
   * [1 Paragraphs and Line Breaks](#1-paragraphs-and-line-breaks)
   * [2 Headers](#2-headers)
@@ -14,6 +13,16 @@ Markdown is a simple syntax that formats text as headers, lists, and so on.
   * [8 Links](#8-links)
   * [9 Images](#9-images)
 
+
+
+
+
+
+***
+    
+    
+    
+    
        
                
        
