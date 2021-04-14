@@ -28,7 +28,6 @@ Code:
     
     This is the second paragraph.
 
-***
 Preview:
 
 This is 
@@ -44,11 +43,11 @@ Code:
 
     This is 
     the first paragraph.
-***
+
 Preview:
 
-    This is 
-    the first paragraph.
+This is 
+the first paragraph.
 ***
 
 
@@ -64,14 +63,14 @@ Code:
     =============
     This is an H2
     -------------
-***
+
 Preview:
 
-    This is an H1
-    =============
+This is an H1
+=============
 
-    This is an H2
-    -------------
+This is an H2
+-------------
 ***
 
 
@@ -85,12 +84,12 @@ Code:
     # This is an H1
     ## This is an H2
     ###### This is an H6
-***
+
 Preview:
 
-    # This is an H1
-    ## This is an H2
-    ###### This is an H6
+# This is an H1
+## This is an H2
+###### This is an H6
 ***
 
 Optionally, you may “close” atx-style headers. The closing hashes **don’t need to match** the number of hashes used to open the header.
@@ -101,7 +100,7 @@ Code:
     ## This is an H2 ##
     ### This is an H3 ######
 Preview:
-***
+
 # This is an H1 #
 ## This is an H2 ##
 ### This is an H3 ######
@@ -115,20 +114,19 @@ Preview:
 
 Code:
 
-    > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-    > consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-    > Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+    > This is 
+    > the first paragraph.
+    > This is the first paragraph.
     > 
-    > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-    > id sem consectetuer libero luctus adipiscing.
+    > This is the second paragraph.
+    > This is the second paragraph.
 Preview:
-***
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+> This is 
+> the first paragraph.
+> This is the first paragraph.
 > 
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
+> This is the second paragraph.
+> This is the second paragraph.
 
 ***
 Markdown allows you to be lazy and only put the > before the first line of a hard-wrapped paragraph.
