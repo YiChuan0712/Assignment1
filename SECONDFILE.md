@@ -92,10 +92,6 @@ Preview:
 ***
 
 
-
-
-
-***
 ### 3 Blockquotes
 ***
 Code:
@@ -158,11 +154,8 @@ Preview:
 
 ### 5 Code Blocks
 ***
-#### Fenced Code Blocks
+#### 5.1 Fenced Code Blocks
 Code:
-
-    Here's an example:
-
     ```
     function test() {
       console.log("notice the blank line before this function?");
@@ -170,15 +163,13 @@ Code:
     ```
 Preview:
 ***
-Here's an example:
-
 ```
 function test() {
   console.log("notice the blank line before this function?");
 }
 ```
 ***
-#### Syntax Highlighting
+#### 5.2 Syntax Highlighting
 Code:
 
     ```ruby
@@ -195,10 +186,7 @@ puts markdown.to_html
 ```
 ***
 
-### Horizontal Rules
-HTML Tag: `<hr />`
-Places **three or more hyphens (-), asterisks (*), or underscores (_)** on a line by themselves. You may use spaces between the hyphens or asterisks.
-
+### 6 Horizontal Rules
 Code:
 
     * * *
@@ -216,14 +204,7 @@ Preview:
 ---------------------------------------
 ___
 ***
-### Table
-HTML Tag: `<table>`
-
-It's an extension.
-
-Separates column by **pipe (|)** and header by **dashes (-)**, and uses **colon (:)** for alignment.
-
-The outer **pipes (|)** and alignment are optional. There are **3 delimiters** each cell at least for separating header.
+### 7 Table
 
 Code:
 ```
@@ -241,8 +222,9 @@ A |B
 --|--
 12|45
 ```
+
 Preview:
-***
+
 | Left | Center | Right |
 |:-----|:------:|------:|
 |aaa   |bbb     |ccc    |
