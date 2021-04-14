@@ -159,6 +159,7 @@ Preview:
 
 #### 5.1 Fenced Code Blocks
 Code:
+
     ```
     #include <iostream>
     
@@ -170,6 +171,7 @@ Code:
     ```
 Preview:
 ***
+
 ```
 #include <iostream>
 
